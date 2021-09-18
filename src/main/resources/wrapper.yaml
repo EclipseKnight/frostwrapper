@@ -1,0 +1,31 @@
+########################################################################################
+#                                                                                      #
+#      This is the configuration for the Wrapper portion of the application.           #
+#      Read and input the apropriate information.                                      #
+#                                                                                      #
+########################################################################################
+
+
+
+
+applications:
+   #Format of command line string.
+   # >start_prefix + startscript 
+   # example_bat would be... 
+   # >"C:\Users\jpaqu\Downloads\frostwalltest\test.bat"
+   # it is important that all spaces and quotes must be present in the string. 
+   # They are not removed and determine how the spacing between arguments will be.
+   #
+   
+   
+   example_bat:
+      enabled: true
+      name: 'example_bat'
+      start_script: '"C:\Users\jpaqu\Downloads\frostwalltest\test.bat"'
+      run_prefix: ''
+   
+   example_shell:
+      enabled: true
+      name: 'example_shell'
+      start_script: ''
+      run_prefix: './'
